@@ -21,7 +21,7 @@ int main()
 
   std::vector<double> a = createRandomVector<double>(30, -3, 1);
 
-  Sorting::Algorithms::simplesort(a);
+  Sorting::Algorithms::selection_sort(a);
 
   std::cout << std::endl << "after:" << std::endl;
   for (auto& elem : a)
